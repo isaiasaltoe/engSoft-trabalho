@@ -2,7 +2,7 @@
 
 Separador de troco, usado para facilitar o cálculo do troco em comércios.  
 Exemplo de entrada:  
-523.24      
+R$523.24      
 
 Exemplo de saída:  
 5 notas de R$100,00;  
