@@ -11,16 +11,16 @@ O código-fonte é dividido nas seguintes partes:
   - `double power(double base, int exponent)`: Calcula a potência de `base` elevado a `exponent` usando a função `pow` da biblioteca matemática.
 
 - **Função Principal (`main()`)**
-  - Solicita ao usuário dois números (`num1` e `num2`).
+  - Solicita ao usuário dois números (`A` e `B`).
   - Oferece uma lista de operações matemáticas e solicita ao usuário que escolha uma operação.
   - Executa a operação escolhida e exibe o resultado. As operações disponíveis são:
     1. Adição
     2. Subtração
     3. Multiplicação
     4. Divisão
-    5. Fatorial de `num1`
-    6. Potência (`num1` elevado a `num2`)
-    7. Raiz quadrada de `num1`
+    5. Fatorial de `A`
+    6. Potência (`A` elevado a `B`)
+    7. Raiz quadrada de `A`
 
 ## Dependências
 
