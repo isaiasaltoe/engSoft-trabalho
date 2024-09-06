@@ -1,9 +1,18 @@
 # Calculadora Simples em C
 
-Esta é uma calculadora simples implementada em C. Ela realiza operações básicas como adição, subtração, multiplicação e divisão.
+## Descrição
 
-## Uso
+Esta é uma calculadora simples implementada em C. Ela realiza operações básicas como adição, subtração, multiplicação e divisão. O objetivo deste projeto é fornecer uma aplicação básica de linha de comando para operações matemáticas fundamentais.
 
-1. Clone o repositório:
+## Progresso do Projeto
+
+- **Versão 1.0**: Implementação básica das operações de adição, subtração, multiplicação e divisão.
+- **Versão 1.1**: Adição de tratamento de erros, como divisão por zero e entradas inválidas.
+- **Versão 1.2**: Melhoria da documentação e instruções de uso.
+
+## Instruções de Uso
+
+1. **Clone o Repositório**
+
    ```bash
    git clone https://github.com/isaiasaltoe/engSoft-trabalho.git
