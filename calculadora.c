@@ -35,7 +35,11 @@ int main() {
             
             break;
         case 4:
-            
+            if (B != 0) {
+                printf("Resultado da divisão: %.2f\n", A / B);
+            } else {
+                printf("Erro: Divisão por zero!\n");
+            }
             break;
         case 5:
            
