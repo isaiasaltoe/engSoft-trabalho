@@ -22,6 +22,33 @@ int main() {
     printf("7. Raiz quadrada de A\n");
     printf("Digite o número da operação desejada: ");
     scanf("%d", &choice);
+    
+     // Executa a operação escolhida e exibe o resultado
+    switch (choice) {
+        case 1:
+            
+            break;
+        case 2:
+            printf("Resultado da subtração: %.2f\n", A - B);
+            break;
+        case 3:
+            
+            break;
+        case 4:
+            
+            break;
+        case 5:
+           
+            break;
+        case 6:
+           
+        case 7:
+           
+            break;
+        default:
+            printf("Opção inválida!\n");
+            break;
+    }
 
  
 
