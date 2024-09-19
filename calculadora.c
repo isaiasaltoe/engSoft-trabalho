@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 
 // Função principal
 int main() {
@@ -26,7 +27,7 @@ int main() {
      // Executa a operação escolhida e exibe o resultado
     switch (choice) {
         case 1:
-            
+            printf("Resultado da adição: %.2f\n", A + B);
             break;
         case 2:
             printf("Resultado da subtração: %.2f\n", A - B);
