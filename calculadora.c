@@ -1,6 +1,17 @@
 #include <stdio.h>
 #include <math.h>
 
+
+// Função para calcular o fatorial de um número inteiro não-negativo
+long long factorial(int n) {
+    long long result = 1;
+    for (int i = 1; i <= n; i++) {
+        result *= i;
+    }
+    return result;
+}
+
+
 // Função principal
 int main() {
     int choice;
@@ -43,7 +54,11 @@ int main() {
             }
             break;
         case 5:
-           
+                 if (A >= 0 && A == (int)A) {  // Verifica se A é não-negativo e inteiro
+                printf("Resultado do fatorial de A: %lld\n", factorial((int)A));
+            } else {
+                printf("Erro: O valor de A deve ser um número inteiro não-negativo!\n");
+            }
             break;
         case 6:
            
