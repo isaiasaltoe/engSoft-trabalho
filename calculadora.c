@@ -11,6 +11,10 @@ long long factorial(int n) {
     return result;
 }
 
+// Função para calcular a potência de base elevado a exponent
+double power(double base, int exponent) {
+    return pow(base, exponent);
+}
 
 // Função principal
 int main() {
@@ -44,7 +48,7 @@ int main() {
             printf("Resultado da subtração: %.2f\n", A - B);
             break;
         case 3:
-             printf("Resultado da multiplicação: %.2f\n", A * B);
+            
             break;
         case 4:
             if (B != 0) {
@@ -61,6 +65,8 @@ int main() {
             }
             break;
         case 6:
+         printf("Resultado da potência (A^B): %.2f\n", power(A, (int)B));
+            break;
            
         case 7:
            
