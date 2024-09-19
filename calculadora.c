@@ -44,7 +44,7 @@ int main() {
             printf("Resultado da subtração: %.2f\n", A - B);
             break;
         case 3:
-            
+             printf("Resultado da multiplicação: %.2f\n", A * B);
             break;
         case 4:
             if (B != 0) {
