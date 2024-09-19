@@ -69,8 +69,13 @@ int main() {
             break;
            
         case 7:
-           
+           if (A >= 0) {
+                printf("Resultado da raiz quadrada de A: %.2f\n", sqrt(A));
+            } else {
+                printf("Erro: Não é possível calcular a raiz quadrada de um número negativo!\n");
+            }
             break;
+            
         default:
             printf("Opção inválida!\n");
             break;
