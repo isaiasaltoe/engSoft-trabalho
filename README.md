@@ -1,7 +1,7 @@
 # Calculadora Simples em C
 
 ## Descrição
-
+Criado por: Isaías Altoé e Adler Amorim 
 Esta é uma calculadora simples implementada em C. Ela realiza operações básicas como adição, subtração, multiplicação e divisão. O objetivo deste projeto é fornecer uma aplicação básica de linha de comando para operações matemáticas fundamentais.
 
 ## Progresso do Projeto
